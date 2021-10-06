@@ -1,4 +1,8 @@
 .profile {
+  animation: moveInUp 1s ease-out;
+  animation-delay: 0.1s;
+  animation-fill-mode: backwards;
+
   text-align: center;
   *:not(:last-child) {
     margin-bottom: 0.8rem;

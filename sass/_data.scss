@@ -11,6 +11,31 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    animation: all 1s;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #eceaeae5;
+      transform: scale(1.05);
+    }
+
+    &--1 {
+      animation: moveInLeft 1s ease-out;
+      animation-delay: 0.1s;
+      animation-fill-mode: backwards;
+    }
+
+    &--3 {
+      animation: moveInRight 1s ease-out;
+      animation-delay: 0.1s;
+      animation-fill-mode: backwards;
+    }
+
+    &--2 {
+      animation: moveInUp 1s ease-out;
+      animation-delay: 0.1s;
+      animation-fill-mode: backwards;
+    }
   }
 
   &__number {
